@@ -1,0 +1,37 @@
+canvas {
+    border: 1px solid lightgreen;
+    border-radius: 60px;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 40px orange
+    }
+    ;
+    to {
+        box-shadow: 1px 1px 40px green
+    }
+    ;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    padding: 20px;
+}
+
+body {
+    background-color: lime;
+}
+
+#Sketches {
+    float: right;
+}
